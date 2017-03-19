@@ -13,18 +13,39 @@ h2 {
   text-align: center;
 }
 
+a {
+  color: blue;
+}
+
+span {
+  font-size: 12px;
+}
+
+span a {
+  color: orange;
+}
+
 ul {
   text-align: center;
 }
 
 li {
   display: inline-block;
-  font-size: 32px;
+  font-size: 20px;
   padding: 0 20px;
 }
 
 h3 {
   color: blue;
+}
+
+img {
+  width: 640px;
+}
+
+p {
+  background-color: lightgray;
+  width: 640px;
 }
 
 .container {
@@ -36,11 +57,15 @@ h3 {
 .col {
   display: inline-flex;
   flex-direction: column;
-justify-content: space-between;
+  justify-content: space-between;
 }
 
 .col2 {
   display: inline-flex;
   flex-direction: column;
-justify-content: space-between;
+  justify-content: space-between;
+}
+
+footer {
+  text-align: right;
 }
