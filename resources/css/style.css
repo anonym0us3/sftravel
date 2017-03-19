@@ -1,5 +1,46 @@
-h1 {
-  color: red;
+header {
+  background-image: url('../images/header.jpg');
+  color: snow;
+  font-size: 80px;
   text-align: center;
   text-transform: uppercase;
+  margin: -100px 0px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  font-size: 32px;
+  padding: 0 20px;
+}
+
+h3 {
+  color: blue;
+}
+
+.container {
+  margin: 0 auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.col {
+  display: inline-flex;
+  flex-direction: column;
+justify-content: space-between;
+}
+
+.col2 {
+  display: inline-flex;
+  flex-direction: column;
+justify-content: space-between;
 }
